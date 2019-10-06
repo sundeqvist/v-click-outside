@@ -52,7 +52,9 @@ In both cases the usage is the same, simply bind it to the element you need to w
     },
   };
 </script>
+```
 
+```html
 <template>
   <div class="my-cool-component">
     <div class="content" />
@@ -67,7 +69,7 @@ In both cases the usage is the same, simply bind it to the element you need to w
 
 If you need to exclude certain elements from the listener and make them not count as outside clicks, you can pass in an object instead:
 
-```js
+```html
 <div
   v-if="showModal"
   class="modal"
