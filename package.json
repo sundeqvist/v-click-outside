@@ -1,8 +1,12 @@
 {
-  "name": "click-outside-directive",
-  "version": "1.0.3",
+  "author": "Erik Sundeqvist",
   "description": "Vue directive to detect clicks outside bound element.",
   "main": "directive/index.js",
-  "author": "Erik Sundeqvist",
-  "license": "MIT"
+  "name": "click-outside-directive",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sundeqvist/v-click-outside.git"
+  },
+  "version": "1.0.4"
 }
