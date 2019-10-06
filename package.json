@@ -1,6 +1,6 @@
 {
   "name": "click-outside-directive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue directive to detect clicks outside bound element.",
   "main": "directive/index.js",
   "author": "Erik Sundeqvist",
