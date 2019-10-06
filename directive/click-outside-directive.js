@@ -12,6 +12,7 @@ let handler;
 const clickOutside = {
   bind(el, binding, vnode) {
     const boundExpression = binding.value.handler || binding.value;
+
     if (typeof boundExpression !== 'function') {
       logWarning();
     }
@@ -24,9 +25,11 @@ const clickOutside = {
         boundExpression();
       }
     };
+
     el.handler = handler;
     document.addEventListener('click',  el.handler);
   },
+
   unbind(el) {
     document.removeEventListener('click', el.handler);
   },
